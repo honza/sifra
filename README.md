@@ -8,8 +8,7 @@ Czech.
 
 from sifra import Sifra
 
-s = Sifra(public_key_path='id_rsa.pub', private_key_path='id_rsa',
-        b64=True)
+s = Sifra(public_key_path='id_rsa.pub', private_key_path='id_rsa', b64=True)
 
 text = 'super secret text'
 
